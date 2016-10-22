@@ -1,0 +1,25 @@
+.navbar-default {
+    background-color: white;
+    border-color: #e7e7e7;
+    margin-bottom: 0px;
+}
+
+.carousel-control.left {
+    background-image: none !important;
+   
+}
+
+.carousel-control.right {
+    background-image: none !important;
+}
+
+.well {
+    min-height: 20px;
+    padding: 19px;
+    margin-bottom: 20px;
+    background-color: whitesmoke;
+    border: none;
+    border-radius: inherit;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}

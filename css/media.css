@@ -1,0 +1,415 @@
+/* Extra small devices (phones, less than 768px) */
+/* No media query since this is the default in Bootstrap */
+
+/* Small devices (tablets, 768px and up) */
+@media screen and (min-width: 768px) {
+
+  .navbar-header{
+
+  display: none;
+}
+
+/*  h3{
+
+
+  font-size: small;
+
+
+}
+
+
+p{
+
+  font-size: small;
+}
+
+*/
+
+
+  .navbar {
+    position: relative;
+    height: 110px;
+    margin-bottom: 20px;
+    border: 1px solid transparent;
+  }
+
+  .logo {
+    display: block;
+    width: 120px;
+    margin: 10px 40px;
+  }
+
+  .navbar-nav {
+    position: absolute;
+    right: 5%;
+    top: 30%;
+  }
+
+
+
+  .back {
+    background-color: white;
+    /*margin: 10px;*/
+    padding: 0;
+    /*width: 23%;*/
+    border: 1px solid black;
+  }
+
+  .back h3 {
+    padding: 0 4%;
+    font-weight: bold;
+  }
+
+  .back p {
+    padding: 0 4%;
+  }
+
+  .back {
+    background-color: white;
+    margin: 2%;
+    width: 21%;
+    border: 1px solid black;
+  }
+
+  .back {
+    background-color: white;
+    margin: 1%;
+    padding: 0;
+    width: 48%;
+    border: 1px solid black;
+  }
+
+  .banner-text{
+
+    display: block;
+  font-size: large;
+  font-family: latolight;
+  position: absolute;
+  padding: 10px 4%;
+  top:5%;
+
+  width: 55%;
+  color: white;
+}
+
+  .banner-text h1{
+
+  font-size: 25px;
+}
+
+.banner-text p{
+
+  font-size: 15px;
+}
+
+.read-more{
+
+
+  width: 50%;
+}
+
+
+.black-box .col-lg-4{
+
+  padding: 7% 25%;
+
+}
+
+.contact{
+
+  border-bottom: 0px;
+  border-right: 1px solid black !important;
+  
+
+}
+
+
+
+
+    /*.logo{
+
+            display: block;
+    width: 25%;
+    padding: 19px 51px;
+
+    }*/;
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+ 
+.navbar-header{
+
+  display: none;
+}
+ /*h3{
+
+
+  font-size: medium;
+
+
+}
+
+
+p{
+
+  font-size: medium;
+}*/
+
+
+  .navbar-nav {
+    position: absolute;
+    right: 10%;
+    top: 30%;
+  }
+
+  .logo {
+    display: block;
+    width: 150px;
+    margin: 10px 100px;
+  }
+
+  .back {
+    background-color: white;
+    margin: 2%;
+    width: 21%;
+    border: 1px solid black;
+  }
+
+
+  .black-box .col-lg-4 {
+    padding: 70px 60px 100px;
+  }
+
+
+  .banner-text{
+
+    display: block;
+  font-size: large;
+  font-family: latolight;
+  position: absolute;
+  padding: 10px 4%;
+  top:5%;
+
+  width: 60%;
+  color: white;
+}
+
+ .banner-text img{
+
+  width: 30%!important;
+    
+}
+
+
+  .banner-text h1{
+
+  font-size: 36px;
+}
+
+.banner-text p{
+
+  font-size: large;
+}
+
+.sm{
+
+  font-size: 18px;
+}
+
+.read-more{
+
+
+  width: 70%;
+}
+
+.current-opening{
+
+
+  font-size: 18px;
+
+}
+
+
+.contact{
+
+  border-bottom: 0px;
+  border-right: 1px solid black !important;
+  
+
+}
+
+
+
+
+
+
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+
+
+ /*   h3{
+
+
+  font-size: large;
+
+
+}
+
+
+p{
+
+  font-size: larger;
+}*/
+ 
+
+  .navbar-nav {
+    position: absolute;
+    right: 15%;
+    top: 37%;
+    font-size: large;
+
+
+  }
+
+
+  .logo {
+    display: block;
+    width: 150px;
+    margin: 10px 100px;
+  }
+
+  .back {
+    background-color: white;
+    margin: 2%;
+    width: 21%;
+    border: 1px solid #B9B1B1;
+  }
+
+
+
+  .black-box .col-lg-4 {
+    padding: 100px 80px 160px;
+  }
+
+  .back h3 {
+    padding: 0 5%;
+    font-weight: bold;
+  }
+
+  .back p {
+    padding: 0 5%;
+  }
+
+
+  .left-span {
+    font-size: large;
+    padding-right: 20px;
+    border-right: 2px solid white;
+  }
+
+  .modal-content {
+    position: relative;
+    background-color: #fff;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    border: 1px solid #999;
+    border: 1px solid rgba(0,0,0,.2);
+    border-radius: 0px;
+    outline: 0;
+    -webkit-box-shadow: 0 3px 9px rgba(0,0,0,.5);
+    box-shadow: 0 3px 9px rgba(0,0,0,.5);
+  }
+
+  .product-code {
+
+    display: flex;
+    font-family: latolight;
+
+  }
+
+  .banner-text{
+
+    display: block;
+  font-size: large;
+  font-family: latolight;
+  position: absolute;
+  padding: 10px 4%;
+  top:5%;
+
+
+  width: 55%;
+  color: white;
+}
+
+
+  .banner-text h1{
+
+  font-size: 36px;  
+  /*font-weight: bold;*/
+}
+
+.banner-text p{
+
+  font-size: large;
+}
+
+  
+.sm{
+
+  font-size: 25px;
+}
+
+.read-more{
+
+
+  width: 70%;
+}
+
+
+
+
+  /*.product-code {
+
+    display: flex;
+    font-family: latolight;
+
+  }
+*/
+
+.current-opening{
+
+
+  font-size: 23px;
+
+}
+  
+.contact{
+
+  border-bottom: 0px;
+  border-right: 1px solid black !important;
+  
+
+}
+
+}
+
+.navbar-header{
+
+  height: 75px;
+
+}
+
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+    background-color: white;
+    border: none;
+    margin-top: 25px;
+}
+
+.navbar-default .navbar-toggle, .navbar-default .navbar-toggle {
+    background-color: white;
+    border: none;
+    margin-top: 25px;
+}
